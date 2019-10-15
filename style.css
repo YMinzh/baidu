@@ -1,0 +1,184 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    height: 98%;
+}
+.clear::after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.page{
+    height: 100%;
+    min-width: 810px;
+    min-height: 600px;
+    position: relative;
+}
+.top{
+    margin-bottom: 20px;
+}
+.top .navList{
+    margin-top: 19px;
+    margin-right: 15px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+    align-items: center;
+}
+.top .navList .nav{
+    font-size: 13px;
+    margin-left: 24px;
+    list-style: none;
+}
+.top .navList .nav a{
+    color: #333333; 
+    font-weight: bold;
+}
+.top .navList .nav .nomal{
+    font-weight: normal;
+}
+.top .navList .nav:first-of-type{
+    background-color: #6254ff;
+    width: 60px;
+    height: 23px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top .navList .nav:first-of-type a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    margin-top: 60px;
+}
+.main .img{
+    margin: 0 auto;
+    width: 270px;
+    height: 129px;
+    background-image:url(./img/baidu.png);
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+}
+
+.main .form{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.main .form .search{
+    display: flex;
+}
+.main .form .search .border{
+    border-top: 1px #999999 solid;
+    border-left: 1px #999999 solid;
+    border-bottom: 1px #999999 solid;
+    position: relative;
+}
+.main .form .search .border .iconfont{
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    font-size: 25px;
+    color: #999999;
+}
+.main .form .search .text{
+    width: 540px;
+    height: 22px;
+    line-height: 22px;
+    margin: 6px 0 0 7px;
+    border: none;
+}
+.main .form .search .submit{
+    border: none;
+    background-color: #5e47f7;
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+    color: white;
+}
+.main .form .search .submit:hover{
+    cursor: pointer;
+}
+.foot{
+    width: 100%;
+    position: absolute;
+    bottom: 47px;
+}
+.foot .QRCode .bor{
+    height: 106px;  
+    padding: 5px;
+    border: 0.5px solid rgba(153,153,163,0.3);
+}
+.foot .QRCode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot .QRCode .downLoad{
+    font-size: 16px;
+    color: #333333;
+    line-height: 32px;
+    font-weight: bold;
+}
+.foot .QRCode .slogan{
+    font-size: 14px;
+    color: #999999;
+}
+
+.foot .extension{
+    color: #999999;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.foot .extension .up .ad{
+    height: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.foot .extension .up .ad .list{
+    line-height: 22px;
+    margin-left: 25px;
+}
+.foot .extension .down{
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot .extension .down .police{
+    margin-left: 19px;
+}
+.extension a{
+    color: #999999;
+}
+.extension .down .icon1{
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.extension .down .icon1 img{
+    position: absolute;
+    left: -597px;
+    top: -95px;
+}
+.extension .down .icon2{
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.extension .down .icon2 img{
+    position: absolute;
+    left: -619px;
+    top: -95px;
+}

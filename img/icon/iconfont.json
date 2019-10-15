@@ -1,0 +1,23 @@
+{
+  "id": "1458008",
+  "name": "baidu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5423494",
+      "name": "相机",
+      "font_class": "z",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "6065004",
+      "name": "国徽",
+      "font_class": "guohui",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
